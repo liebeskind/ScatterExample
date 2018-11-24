@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "author": "Daniel Liebeskind",
+  "github": "https://github.com/liebeskind/ScatterExample.git",
+  "article": "https://medium.com/p/170d6d83d7a0",
+  "version": "0.1.0",
+  "dependencies": {
+    "eosjs": "20.0.0-beta2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "^1.1.5",
+    "scatterjs-core": "^2.3.8",
+    "scatterjs-plugin-eosjs2": "^1.1.6",
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.1.5"
+  }
+}
