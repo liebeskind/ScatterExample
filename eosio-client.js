@@ -4,17 +4,17 @@ import ScatterJS from "scatterjs-core";
 import ScatterEOS from "scatterjs-plugin-eosjs2"; // Use eosjs2 if your version of eosjs is > 16
 
 // eosio endpoint
-const endpoint = "http://dev.cryptolions.io:38888"; // Jungle
+const endpoint = "http://jungle2.cryptolions.io:80"; // Jungle
 
 // Networks are used to reference certain blockchains.
 // They let you get accounts and help you build signature providers.
 const network = {
 	blockchain: "eos",
 	protocol: "http",
-	host: "dev.cryptolions.io",
-	port: 38888,
+	host: "jungle2.cryptolions.io",
+	port: 80,
 	// chainId: "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906" // EOS Main Net
-	chainId: "038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca" // Jungle
+	chainId: "e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473" // Jungle
 };
 
 class EOSIOClient extends React.Component {
